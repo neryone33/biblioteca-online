@@ -1,0 +1,14 @@
+# Dependências
+/node_modules
+
+# Arquivo de variáveis de ambiente (contém segredos)
+.env
+
+# Logs de erro do NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
