@@ -16,7 +16,8 @@ const config = {
 if (process.env.NODE_ENV === 'production') {
   config.dialectOptions = {
     ssl: {
-      rejectUnauthorized: true,
+      // Altere esta linha de 'true' para 'false'
+      rejectUnauthorized: false,
     }
   };
 }
